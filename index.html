@@ -3,10 +3,201 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício html</title>
+    <title>Meu portal de Notícias</title>
+    <link rel="stylesheet" href="./main.css" />
 </head>
 <body>
-    <header><h1>Página Principal</h1></header>
-<a href="./formulário.html">Ir para página de formulários</a>    
+    <header>
+        <div class="container">    
+            <h1>Meu portal de Notícias</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#sports" title="Ir para a seção de esportes">Esportes</a>
+                </li>
+                <li>
+                    <a href="#economy" title="Ir para a seção de notícias">Economia</a>
+                </li>
+                <li>
+                    <a href="#technology" title="Ir para a seção de tecnologia">Tecnologia</a>
+                </li>
+                <li>
+                    <a href="#archeology" title="Ir para a seção de arqueologia">Arqueologia</a>
+                </li>
+            </ul>
+        </nav> 
+        </div>
+    </header>
+    <section id="sports">
+        <div class="container">
+            <h2>Esportes</h2>
+        <div class="articles">
+            <article>
+                <img src="./imagens/futebol.jpg" alt="Bola de futebol no gramado" />
+                <header>
+                    <time class="creation-date">24/08/2024</time>
+                </header>
+                <h3>Grande clássico de Hoje</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis sed sunt incidunt temporibus ea laborum, laboriosam error! Molestias provident, ratione dolorem at aperiam assumenda in eveniet eligendi amet explicabo?
+                </p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+                <br />
+                <br/>
+            </article>
+            <article>
+                <img src="./imagens/futebol-americano.jpg" alt="Jogador de futebol americando correndo com a bola na mão" />
+                <header>
+                    <time>24/08/2024 às 07:47</time>
+                </header>
+                <h3> Noite do SuperBowl</h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit dolorem cupiditate, et facilis consectetur rerum sed quisquam doloremque sapiente culpa consequatur debitis ipsa laborum est provident eos natus quo commodi.
+                </p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+                <br />
+                <br />
+            </article>
+            <article>
+                <img src="/imagens/basquete.jpg" title="Vista aérea de uma quadra de basquete" />
+                <header>
+                    <time>24/08/2024 às 07:52</time>
+                </header>
+                <h3>Notícia sobre a NBA</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptates officiis ea quod voluptate facilis nihil, quam quisquam quidem soluta. Iure quaerat debitis reiciendis accusantium optio architecto quis doloremque ex?
+                </p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+            </article>
+        </div>
+        </div>
+    </section>
+    <section id="economy">
+        <div class="container">
+            <h2>Economia</h2>
+        <div class="articles">
+            <article>
+                <img src="/imagens/dolares.jpg" alt="Muitos dólares" />
+                <header>
+                    <time>24/08/2024 às 07:58</time>
+                </header>
+                <h3>Dólar em alta de 0.50%</h3>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus minus dolorem mollitia ad, porro molestias consectetur optio. Ducimus, sint adipisci, pariatur quam totam necessitatibus fugiat laudantium ex officiis dolorum itaque.
+                </p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+            </article>
+            <br />
+            <article>
+                <img src="/imagens/euro.jpg" alt="Várias notas de Euro" />
+                <header>
+                    <time>24/08/2024 às 08:05</time>
+                </header>
+                <h3>Euro em queda de 0.40%</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed tenetur hic maiores quidem mollitia, corporis eos exercitationem iusto earum quibusdam animi, velit perferendis cumque vitae quaerat itaque eligendi cupiditate laudantium!
+                </p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+            </article>
+            <br />
+            <article>
+                <img src="./imagens/petroleo.jpg" alt="Extração de petróleo" />
+                <header>
+                    <time>24/08/2024 às 08:08</time>
+                </header>
+                <h3>Alta no preço do barril do petróleo </h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae laboriosam magni cumque labore numquam dolorum nulla velit. Nulla non fugiat tempora corrupti quos vel expedita. Error impedit ab placeat velit?
+                </p>
+                <a href="#" title="Leia a notícias completa">Ler mais</a>
+            </article>
+        </div>
+        </div>
+    </section>
+    <section id="technology">
+        <div class="container">
+            <h2>Tecnologia</h2>
+            <div class="articles">
+                <article>
+                    <img src="./imagens/tecnologia.jpg" alt="Imagem de notebook com detalhes">
+                    <header>
+                        <time>28/08/2024 às 07:56</time>
+                    </header>
+                    <h3>Aumento da utilização de IA sobe 97%</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque expedita voluptates, repellat doloribus odit vero provident. Laborum perspiciatis id ipsam ratione molestias quibusdam natus culpa sunt nihil incidunt, impedit voluptatum!
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <br />
+                <article>
+                    <img src="./imagens/RTX-4090-Ti.jpg" alt="Placa de vídeo Rtx4090 TI">
+                    <header>
+                        <time>28/08/2024 às 08:05</time>
+                    </header>
+                    <h3>Possível lançamento da Rtx 4090 TI</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quaerat quam tempora? Iure voluptas modi error doloremque corrupti, voluptatem alias nam. Molestias, sapiente ipsum. Quidem neque repudiandae aliquid unde nihil.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <br />
+                <article>
+                    <img src="./imagens/aws imagem.jpg" alt="Aws e um notebook">
+                    <header>
+                        <time>28/08/2024 às 08:10</time>
+                    </header>
+                    <h3>Dúvidas para certificações Aws</h3>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga omnis, blanditiis quos modi commodi saepe consequuntur optio iure tenetur deleniti suscipit cumque magni atque quam fugit sunt, sed dicta! Neque.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <br />
+            </div>
+        </div>
+    </section>
+    <section id="archeology">
+        <div class="container">
+            <h2>Arqueologia</h2>
+            <div class="articles">
+                <article>
+                    <img src="./imagens/arqueologia.jpg" alt="Arqueólogo fazendo descoberta na areia desértica">
+                    <header>
+                        <time>28/08/2024 ás 08:21</time>
+                    </header>
+                    <h3>Possível descoberta de fósseis em Matinhos-PR</h3>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum consequuntur corporis laudantium aperiam vero sequi, quod temporibus ad reiciendis veritatis suscipit tempora iusto? Harum ipsa, ea quas atque quo ab.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <br />
+                <article>
+                    <img src="./imagens/arqueologia grupo.webp" alt="Arqueólogos usando tecnologia">
+                    <header>
+                        <time>28/08/2024 ás 08:32</time>
+                    </header>
+                    <h3>Arqueologia e Tecnologia juntos para desvendar mistérios da humanidade</h3>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias repellat corporis dolores, voluptatem modi commodi in non vero unde quia officia dicta dignissimos qui quasi laborum? Praesentium, possimus. Dolor, earum.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <br />
+                <article>
+                    <img src="./imagens/mulher arqueologia.webp" alt="Mulher escavando com luvas">
+                    <header>
+                        <time>28/08/2024 às 08:37</time>
+                    </header>
+                    <h3>Arqueologia e a nova geração</h3>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti qui voluptatum aliquam cupiditate, iure earum nobis blanditiis id corporis minima dolorum atque quia illum officiis, obcaecati consequatur voluptatem unde laudantium!
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+            </div>
+        </div>
+    </section>  
 </body>
 </html>
